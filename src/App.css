@@ -24,6 +24,15 @@
   color: white;
 }
 
+.flex-container {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: center; /* center items horizontally, if you want */
+  align-items: center;     /* center items vertically, if you want */
+  gap: 1rem;               /* space between items, optional */
+}
+
+
 .App-link {
   color: #61dafb;
 }
